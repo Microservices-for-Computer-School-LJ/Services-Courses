@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{20EBB549-3686-43D0-90D7-E04D6F73CBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C1-Session1", "C1-Session1", "{11C41E16-01F4-4B39-9E22-C089516A81D1}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\C1-Session1\README.md = Documentation\C1-Session1\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CE433CD-6079-4A0D-8606-EB317CA01FC8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostmanCollections", "PostmanCollections", "{52A5E5B6-FF66-46E8-91F5-6B1DF6ABD3F2}"
+	ProjectSection(SolutionItems) = preProject
+		PostmanCollections\Small-School-Solution-Local.postman_environment.json = PostmanCollections\Small-School-Solution-Local.postman_environment.json
+		PostmanCollections\Small-School-Solution.postman_collection.json = PostmanCollections\Small-School-Solution.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6777CCC4-07B1-4DC9-AB10-9D5CD363B0D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7B7AD74B-FB65-4270-90EB-9F919920566F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courses.API", "Source\Courses.API\Courses.API.csproj", "{45BF7A9C-E1FE-46F5-8C52-D58688C3C3EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{504D6CCA-1392-4F10-8A54-875FF3745687}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\C1-Session1\Images\DotnetNewList.PNG = Documentation\C1-Session1\Images\DotnetNewList.PNG
+		Documentation\C1-Session1\Images\DotNetNew_CLI_1.PNG = Documentation\C1-Session1\Images\DotNetNew_CLI_1.PNG
+		Documentation\C1-Session1\Images\DotNetNew_CLI_2.PNG = Documentation\C1-Session1\Images\DotNetNew_CLI_2.PNG
+		Documentation\C1-Session1\Images\Information.PNG = Documentation\C1-Session1\Images\Information.PNG
+		Documentation\C1-Session1\Images\SeatBelt.PNG = Documentation\C1-Session1\Images\SeatBelt.PNG
+		Documentation\C1-Session1\Images\ViswanathaSwamyPK.PNG = Documentation\C1-Session1\Images\ViswanathaSwamyPK.PNG
+		Documentation\C1-Session1\Images\WebAPITemplate.PNG = Documentation\C1-Session1\Images\WebAPITemplate.PNG
+		Documentation\C1-Session1\Images\WebAppEmptyTemplate.PNG = Documentation\C1-Session1\Images\WebAppEmptyTemplate.PNG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45BF7A9C-E1FE-46F5-8C52-D58688C3C3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BF7A9C-E1FE-46F5-8C52-D58688C3C3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BF7A9C-E1FE-46F5-8C52-D58688C3C3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BF7A9C-E1FE-46F5-8C52-D58688C3C3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11C41E16-01F4-4B39-9E22-C089516A81D1} = {20EBB549-3686-43D0-90D7-E04D6F73CBB9}
+		{45BF7A9C-E1FE-46F5-8C52-D58688C3C3EC} = {6777CCC4-07B1-4DC9-AB10-9D5CD363B0D9}
+		{504D6CCA-1392-4F10-8A54-875FF3745687} = {11C41E16-01F4-4B39-9E22-C089516A81D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E25C25CF-16CD-4990-A9CF-27625CF61E63}
+	EndGlobalSection
+EndGlobal

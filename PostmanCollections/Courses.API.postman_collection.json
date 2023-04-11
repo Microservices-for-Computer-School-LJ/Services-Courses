@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "42908591-f95f-4123-a301-6d8770834255",
+		"name": "Courses.API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24752915"
+	},
+	"item": [
+		{
+			"name": "GET /",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{coursesapiurl}}/",
+					"host": [
+						"{{coursesapiurl}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /hw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{coursesapiurl}}/hw",
+					"host": [
+						"{{coursesapiurl}}"
+					],
+					"path": [
+						"hw"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{coursesapiurl}}/api",
+					"host": [
+						"{{coursesapiurl}}"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/v1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{coursesapiurl}}/api/v1",
+					"host": [
+						"{{coursesapiurl}}"
+					],
+					"path": [
+						"api",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
