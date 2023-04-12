@@ -19,7 +19,7 @@ public static class CourseEndpoints
           .WithName("GetAllCourses")
           .Produces<ApiResponseDto<IReadOnlyCollection<CourseDto>>>(StatusCodes.Status200OK)
           .ProducesProblem(StatusCodes.Status500InternalServerError)
-          .WithOpenApi()
+          .WithOpenApi();
 
     }
 }
